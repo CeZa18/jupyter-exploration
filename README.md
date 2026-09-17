@@ -70,7 +70,8 @@ Demo Video
 AI Usage Log
 See docs/AI_usage_log.md
 
-Current Status
+Current Status:
+
 [x] Repository created
 
 [x] Proposal submitted
