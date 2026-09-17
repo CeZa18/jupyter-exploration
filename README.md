@@ -9,68 +9,70 @@ This repository holds the projects for my class 6271-ITAI-1378-Comp Vision-Artif
 * L04
 * L05
 * L06
-* Midterm
+* Midterm - Easy Pantry Project - Blueprints
 
-Easy Pantry
-Team Members
-Cesar
+## Easy Pantry
+**Student**: Cesar Zaldivar
 
-Project Tier
-Tier 1: One model doing one job — object detection with YOLO11
+## **Project Tier**
+**Tier 1**: One model doing one job — object detection with YOLO11
 
-Problem Statement
+## **Problem Statement**
 Households often lose track of pantry inventory, leading to duplicate purchases, forgotten ingredients, and inefficient grocery planning. This matters to families and home cooks who want to save time, reduce waste, and streamline shopping.
 
-Solution Overview
+## **Solution Overview**
 Easy Pantry uses object detection to identify pantry items such as pasta boxes, snack bags, and soda cans from a phone photo. The system counts each item type and generates a simple inventory report. Future versions may suggest recipes based on detected items.
 
-Technical Approach
-CV Technique: Object Detection
+## **Technical Approach**
+* CV Technique: Object Detection
 
-Model Architecture: CNN (YOLO11)
+* Model Architecture: CNN (YOLO11)
 
-Model: YOLO11
+* Model: YOLO11
 
-How we will use it: Pretrained first, optional transfer learning
+* How we will use it: Pretrained first, optional transfer learning
 
-Framework: PyTorch + Ultralytics
-Why this approach: YOLO11 is fast, accurate, and easy to run in Colab, making it ideal for multi-class pantry detection.
+* Framework: PyTorch + Ultralytics
+**Why this approach**: YOLO11 is fast, accurate, and easy to run in Colab, making it ideal for multi-class pantry detection.
 
-Dataset
+## Dataset
 Source: Personal pantry photos + optional Roboflow datasets
 
-Size: ~100 images
+* Size: ~100 images
 
-Labels: pasta_box, snack_bag, soda_can
+* Labels: pasta_box, snack_bag, soda_can
 
-Link: Added later if using Roboflow
+* Link: Added later if using Roboflow
 
-Success Metrics
-Primary: mAP50 ≥ 0.85
+## **Success Metrics**
 
-Secondary: < 1 second per image
+* Primary: mAP50 ≥ 0.85
 
-Milestone Plan
+* Secondary: < 1 second per image
+
+## **Milestone Plan**
 (Insert the 10-week table from Slide 7)
 
-Resources
-Compute: Google Colab
+# **Resources**
 
-Cost: $0
+* Compute: Google Colab
 
-Risks & Mitigation
-Risk	Probability	Plan B
-Not enough data	Medium	Use Roboflow datasets
-Training slow	Medium	Use pretrained YOLO11
+* Cost: $0
+
+## **Risks & Mitigation**
+
+|Risk |	Probability |	Plan B|
+|Not enough data | Medium |	Use Roboflow datasets|
+|Training slow	| Medium |	Use pretrained YOLO11|
 
 
-Demo Video
+## **Demo Video**
 (To be added during final)
 
-AI Usage Log
+## **AI Usage Log**
 See docs/AI_usage_log.md
 
-Current Status:
+## **Current Status:**
 
 [x] Repository created
 
