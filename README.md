@@ -51,7 +51,14 @@ Source: Personal pantry photos + optional Roboflow datasets
 * Secondary: < 1 second per image
 
 ## **Milestone Plan**
-(Insert the 10-week table from Slide 7)
+
+| Phase | Goal | Milestone | Week |
+|---------|---------|---------|---------|
+| Blueprint | Plan approved | Midterm submitted | Week 5 |
+| First working demo | Pretrained YOLO11 runs | Something works | Week 6 |
+| Make it yours | Add pantry data + optional training | System works on my data | Weeks 7–8 |
+| Improve & measure | Test + metrics | Metrics recorded | Week 9 |
+| Package & present | Demo video + README + final slides | Final submitted | Week 10 |
 
 # **Resources**
 
