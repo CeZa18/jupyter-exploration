@@ -65,6 +65,8 @@ Source: Personal pantry photos + optional Roboflow datasets
 |Not enough data | Medium |	Use Roboflow datasets|
 |Training slow	| Medium |	Use pretrained YOLO11|
 
+## **Project Presentation Video**
+https://youtu.be/d39uigbRrx0
 
 ## **Demo Video**
 (To be added during final)
