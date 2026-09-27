@@ -3,6 +3,15 @@
 This repository holds the projects for my class 6271-ITAI-1378-Comp Vision-Artificial Intel-RT-16348. 
 
 **Contents:**
+## Repository Structure
+
+- README.md — Project overview and blueprint
+- data/README.md — Dataset source and collection plan
+- docs/L06_CesarZaldivar_ITAI_1378_Easy_Pantry.pdf — Midterm presentation slides
+- docs/AI_usage_log.md — AI usage disclosures
+
+*Labs and projectprograms*
+
 * My_First_Notebook.ipynb
 * L02_Zaldivar_Cesar_ITAI1378.ipynb
 * L03_A_ZaldivarCesar_ITAI_1378.ipynb
